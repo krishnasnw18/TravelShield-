@@ -1,5 +1,5 @@
-name: wayfinder_bloom
-description: "Experience \\\"VoyageGuard,\\\" a smart travel companion that provides tourists with a secure digital ID, instant SOS assistance, and real-time geofencing alerts, while offering vital incident monitoring for police and insightful cluster heatmaps for tourism administrators."
+name: travelshield
+description: "TravelShield is a smart travel safety application providing digital tourist ID, SOS assistance, geofencing alerts, safety mapping, AI travel assistance, and role-based incident monitoring."
 publish_to: "none"
 version: 1.0.0
 
@@ -17,10 +17,9 @@ dependencies:
   flutter_secure_storage: ^9.2.2
   flutter_local_notifications: ^17.2.3
   geofence_service: ^6.0.0+1
-  permission_handler: ^11.3.1
+  permission_handler: ^11.3.0
   shared_preferences: ^2.3.2
   flutter_map: ^8.2.1
-
 
 dev_dependencies:
   flutter_test:
